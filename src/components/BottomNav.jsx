@@ -22,7 +22,7 @@ function BottomNav() {
               Categories{" "}
               <img className="mt-1" src={arrow_down} alt="arrow_down" />
               <div
-                className=" transition-all  hidden group-hover:block
+                className=" transition-all  hidden bg-white  group-hover:block
             absolute -bottom-80 overflow-auto h-80 border  left-0 w-full shadow text-black
           "
               >

@@ -291,7 +291,7 @@ function BottomNav() {
             >
               Selles <img className="mt-1" src={arrow_down} alt="arrow_down" />
               <div
-                className=" transition-all  hidden group-hover:block
+                className=" transition-all  bg-white hidden group-hover:block
             absolute -bottom-52 overflow-auto h-52 border  left-0 w-full shadow text-black
           "
               >

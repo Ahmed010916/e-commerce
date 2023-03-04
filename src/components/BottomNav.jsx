@@ -14,7 +14,7 @@ function BottomNav() {
       <div className="h-14 bg-site-1 lg:bg-site-3">
         <div className="">
           {/* Web */}
-          <ul className="w-fit mx-auto relative hidden md:flex h-14  gap-10 justify-center text-lg items-center text-white">
+          <ul className="w-fit mx-auto relative hidden lg:flex h-14  gap-10 justify-center text-lg items-center text-white">
             <a
               href="#"
               className="group h-14 flex gap-2 items-center ont-medium transition-colors duration-200 hover:text-site-1"
@@ -22,7 +22,7 @@ function BottomNav() {
               Categories{" "}
               <img className="mt-1" src={arrow_down} alt="arrow_down" />
               <div
-                className=" transition-all  hidden bg-white  group-hover:block
+                className=" bg-white transition-all  hidden group-hover:block
             absolute -bottom-80 overflow-auto h-80 border  left-0 w-full shadow text-black
           "
               >
@@ -291,7 +291,7 @@ function BottomNav() {
             >
               Selles <img className="mt-1" src={arrow_down} alt="arrow_down" />
               <div
-                className=" transition-all  bg-white hidden group-hover:block
+                className="bg-white transition-all  hidden group-hover:block
             absolute -bottom-52 overflow-auto h-52 border  left-0 w-full shadow text-black
           "
               >
@@ -323,7 +323,7 @@ function BottomNav() {
             onClick={() => {
               setoverlay("left-0");
             }}
-            className="h-14 flex md:hidden cursor-pointer justify-end mr-5 items-center"
+            className="h-14 flex lg:hidden cursor-pointer justify-end mr-5 items-center"
           >
             <img src={align_list} alt="align_list" />
           </div>
@@ -338,7 +338,7 @@ function BottomNav() {
       ></div>
 
       <div
-        className={`transition-all duration-300 overflow-auto  absolute top-0 ${overlay} h-screen w-[70vw] bg-[#333] text-white`}
+        className={`transition-all  bg-site-3 duration-300 overflow-auto  absolute top-0 ${overlay} h-screen w-[70vw] bg-[#333] text-white`}
       >
         <img
           className="z-10 cursor-pointer float-right mr-5 mt-20"
